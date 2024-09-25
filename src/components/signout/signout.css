@@ -1,0 +1,22 @@
+.signoutd{
+  float: right;
+  position: sticky;
+  top:0
+}
+.signout{
+ color: rgb(196,60,100);
+ cursor: pointer;
+ border: none;
+ background-color: white;
+ box-shadow:  0 0 8px 0 rgba(17,22,26,0.16),0 4px 8px 0 rgba(17,22,26,0.08),0 8px 16px 0 rgba(17,22,26,0.08);
+border-radius: 10px;
+padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+ font-size: 1.2rem;
+ font-weight: bold;
+ margin-right: 20px;
+ margin-top: 10px;
+
+}

@@ -1,0 +1,89 @@
+.main{
+  margin-left: 5rem;
+}
+.patel{
+  color: rgb(196,60,100);
+  font-family: verdana;
+  font-size: 2.5rem;
+  text-decoration:none;
+  margin-left: -4rem;
+
+
+}
+.user{
+  display: flex;
+  margin-top: 1.2rem;
+
+
+}
+.profilepic{
+
+
+  height: 3rem;
+  max-width: 100%;
+  border-radius: 9999px;
+}
+.username{
+
+  padding-left: 1rem;
+  color: rgb(195,82,168);
+
+margin-top: 0rem;
+}
+.message{
+    padding-left: 1rem;
+
+}
+.type{
+  outline: 2px solid transparent;
+    outline-offset: 2px;
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    box-shadow:  0 0 8px 0 rgba(17,22,26,0.16),0 4px 8px 0 rgba(17,22,26,0.08),0 8px 16px 0 rgba(17,22,26,0.08);
+
+}
+.form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.send{
+  height: 2.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: rgb(196,60,100);
+  width: 4rem;
+  box-shadow:  0 0 8px 0 rgba(17,22,26,0.16),0 4px 8px 0 rgba(17,22,26,0.08),0 8px 16px 0 rgba(17,22,26,0.08);
+}
+@media screen and (max-width: 650px) {
+  .main{
+    margin-left: 10px;
+  }
+  .patel{
+    color: rgb(196,60,100);
+    font-family: verdana;
+    font-size: 2rem;
+    text-decoration:none;
+    margin-left: 10px;
+
+
+
+}
+}
+@media screen and (max-width: 550px) {
+  .type{
+
+      width: 70%;
+
+
+  }
+
+
+
+}

@@ -1,0 +1,65 @@
+.signin{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
+width: 50%;
+border-radius: 10px;
+margin-left: 25%;
+margin-top: 20%;
+box-shadow:  0 0 8px 0 rgba(17,22,26,0.16),0 4px 8px 0 rgba(17,22,26,0.08),0 8px 16px 0 rgba(17,22,26,0.08);
+}
+.heading{
+    font-family: verdana;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: rgb(196,60,100);
+
+
+
+}
+.body{
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+
+
+}
+.google{
+  cursor: pointer;
+  box-shadow:  0 0 8px 0 rgba(17,22,26,0.16),0 4px 8px 0 rgba(17,22,26,0.08),0 8px 16px 0 rgba(17,22,26,0.08);
+
+margin-bottom: 10px;
+font-size: 1rem;
+border-radius: 5px;
+border: none;
+padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.google:hover {
+  background-color: rgb(196,60,100);
+  color: white;
+
+}
+@media screen and (max-width: 980px) {
+
+  .body{
+    font-size: 1rem;
+
+
+  }
+  .google{
+    font-size: 0.5rem;
+    padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+  }
+  .signin{
+    
+    text-align: center;
+  }
+}
